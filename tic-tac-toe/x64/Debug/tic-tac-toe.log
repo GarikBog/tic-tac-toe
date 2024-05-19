@@ -1,0 +1,25 @@
+﻿  main.cpp
+C:\сpp_lib\tic-tac-toe\tic-tac-toe\main.cpp(42,16): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\сpp_lib\tic-tac-toe\tic-tac-toe\main.cpp(42,13): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\сpp_lib\tic-tac-toe\tic-tac-toe\main.cpp(153,16): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\сpp_lib\tic-tac-toe\tic-tac-toe\main.cpp(153,13): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\сpp_lib\tic-tac-toe\tic-tac-toe\main.cpp(262,53): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\сpp_lib\tic-tac-toe\tic-tac-toe\main.cpp(262,50): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\utility(247,16): warning C4244: инициализация: преобразование "const float" в "_Ty1", возможна потеря данных
+          with
+          [
+              _Ty1=int
+          ]
+C:\сpp_lib\tic-tac-toe\tic-tac-toe\main.cpp(126,28): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,int>::pair<const float&,const float&,0>(_Other1,_Other2) noexcept"
+          with
+          [
+              _Other1=const float &,
+              _Other2=const float &
+          ]
+C:\сpp_lib\tic-tac-toe\tic-tac-toe\main.cpp(126,28): message : см. первую ссылку на "std::pair<int,int>::pair" в "Button::Get_pos"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\utility(247,54): warning C4244: инициализация: преобразование "const float" в "_Ty2", возможна потеря данных
+          with
+          [
+              _Ty2=int
+          ]
+  tic-tac-toe.vcxproj -> C:\сpp_lib\tic-tac-toe\x64\Debug\tic-tac-toe.exe
